@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main-header{	
+	background-color: blue;
+}
+.main-header nav ul{	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:flex-end;
+	align-content:center; 
+	text-align :center;
+	text-decoration: none;
+	gap:2vh;
+	font-size:3vh;
+	color: white;
+	list-style: none;
+}
+.main-header nav .logo{
+	height: 10vh;
+	width: 10vh;
+	border-radius: 50%;
+	background-color: red;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+}
